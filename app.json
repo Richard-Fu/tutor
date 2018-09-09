@@ -1,0 +1,45 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/index/menu/order/show/show",
+    "pages/index/menu/order/search/search",
+    "pages/index/menu/stuEva/show/show",
+    "pages/index/menu/stuEva/search/search",
+    "pages/index/menu/teaEva/show/show",
+    "pages/index/menu/teaEva/search/search",
+    "pages/index/menu/stuInfro/show/show",
+    "pages/index/menu/stuInfro/search/search",
+    "pages/index/menu/stuInfro/add/add",
+    "pages/index/menu/teaInfro/show/show",
+    "pages/index/menu/teaInfro/search/search",
+    "pages/index/menu/teaInfro/add/add"
+
+  ],
+  "window":{
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8",
+    "navigationBarTitleText": "家教管理系统",
+    "navigationBarTextStyle":"black"
+  },
+    "tabBar": {
+      "color": "#7A7E83",
+      "selectedColor": "#3cc51f",
+      "borderStyle": "black",
+      "backgroundColor": "#ffffff",
+      "list": [
+        {
+          "pagePath": "pages/index/index",
+          "iconPath": "image/icon_component.png",
+          "selectedIconPath": "image/icon_component_HL.png",
+          "text": "首页"
+        },
+        {
+          "pagePath": "pages/logs/logs",
+          "iconPath": "image/icon_API.png",
+          "selectedIconPath": "image/icon_API_HL.png",
+          "text": "设置"
+        }
+      ]
+    }
+}

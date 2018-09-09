@@ -1,0 +1,20 @@
+/* pages/index/menu/stuInfro/show/show.wxss */
+.table {
+  border: 0px solid darkgray;
+}
+.tr {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  height: 3rem;
+  align-items: center;
+}
+.td {
+    width:50%;
+    justify-content: center;
+    text-align: center;
+
+}
+.bg-g{
+  background: #E6F3F9;
+}

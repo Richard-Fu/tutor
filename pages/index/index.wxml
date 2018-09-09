@@ -1,0 +1,14 @@
+<!--index.wxml-->
+<view class="index">
+<view class="index-bd">
+  <view class="page-body">
+    <view class="btn-area">
+      <button type="default" bindtap="stuInfro">学生信息</button>
+      <button type="default" bindtap="teaInfro">教师信息</button>
+      <button type="default" bindtap="stuEva">学生评价</button>
+      <button type="default" bindtap="teaEva">教师评价</button>
+      <button type="default" bindtap="order">订单信息</button>
+    </view>
+  </view>
+  </view>
+</view>

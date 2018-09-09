@@ -1,0 +1,18 @@
+<!--pages/index/menu/stuInfro/show/show.wxml-->
+<view class="table">
+  <block wx:for="{{listData}}" wx:key="{{infro}}">
+    <view class="tr bg-g">
+      <view class="td">{{item.infro}}</view>
+      <view class="td">
+      {{item.id}}
+      {{item.name}}
+      {{item.sex}}
+      {{item.age}}
+      {{item.grade}}
+      {{item.address}}
+      {{item.number}}
+      </view>
+ 
+    </view>
+  </block>
+</view>
